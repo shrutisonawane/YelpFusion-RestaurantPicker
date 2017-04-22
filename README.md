@@ -15,3 +15,6 @@ This is a simple Python 2.7 program that gives a call to Yelp's Fusion APIs to c
 Next, simply run the code as a command line tool:
 `python RestoPicker.py`
 
+**Working**
+
+The tool provides a menu driven command line interface that let's the user choose from a default location of "Arizona State University, Tempe" or input a new city. The geopy libray helps find the city's co-ordinates and gives a call to Yelp's Fusion API to return a list of all restaurants for that location. The program then randomly picks a restaurant to visit and also prints it's address.
