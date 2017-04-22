@@ -5,11 +5,12 @@ This is a simple Python 2.7 program that gives a call to Yelp's Fusion APIs to c
 
 **Dependencies**
 
-1. [urllib](https://docs.python.org/2.7/library/urllib.html#module-urllib) package
+1. Need to sign up and create a [Yelp Fusion App](https://www.yelp.com/developers/v3/manage_app). This would generate the     Client ID and Client Secret required by the program to call the APIs. 
+2. [urllib](https://docs.python.org/2.7/library/urllib.html#module-urllib) package
 * `built-in with Python 2.7`
-2. [geopy 1.11.0](https://pypi.python.org/pypi/geopy) package
+3. [geopy 1.11.0](https://pypi.python.org/pypi/geopy) package
 * `pip install geopy`
-3. [requests 2.7.0](https://pypi.python.org/pypi/requests/2.7.0) module
+4. [requests 2.7.0](https://pypi.python.org/pypi/requests/2.7.0) module
 * `pip install requests`
 
 Next, simply run the code as a command line tool:
